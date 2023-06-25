@@ -1,0 +1,221 @@
+$font-family: "Josefin Sans",
+sans-serif;
+$font-color: #232931;
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  background-image: url(/background.svg);
+  background-repeat: repeat;
+}
+
+.christmas {
+background-color: white;
+}
+
+.welcome {
+  padding: 30px;
+  font-family: "Great Vibes", cursive;
+  font-size: 3em;
+  background-color: white;
+  opacity: 0.7;
+}
+
+.navigation {
+
+
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+
+  .nav-link {
+    color: $font-color !important;
+    font-family: $font-family;
+  }
+
+  .nav-link:hover {
+    color: black !important;
+    background-color: pink;
+  }
+}
+
+.greet {
+  background-color: rgb(250, 235, 243);
+
+  .hello {
+    font-family: "Great Vibes", cursive;
+    padding: 15px;
+    font-size: 2.5rem;
+  }
+
+  .greet-text {
+    font-family: $font-family;
+    padding: 10px;
+    line-height: 2;
+  }
+}
+
+.offer {
+  font-size: 1em;
+  letter-spacing: 2px;
+  font-family: $font-family;
+  background-color: white;
+  filter: drop-shadow(20px 10px 4px #949494);
+  border: 1px solid #cecbcb;
+
+  h4 {
+    padding: 20px;
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  .img-offer {
+    height: 150px;
+  }
+}
+
+
+.gallery {
+  margin-top: 50px;
+
+  h3 {
+    font-family: $font-family;
+    background-color: #232931;
+    color: white;
+    padding: 20px;
+  }
+
+
+}
+
+
+.reviews {
+  font-family: $font-family;
+  color: $font-color;
+  background-color: #e79cc2;
+  margin-top: 50px;
+
+  h3,
+  p {
+    padding: 10px;
+  }
+}
+
+.page-footer {
+  background-color: $font-color;
+  font-family: $font-family;
+  padding-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+  h6 {
+    color: white;
+    letter-spacing: 2px;
+    padding-top: 10px;
+  }
+
+  .line {
+    border-top: 1px solid rgb(160, 149, 149);
+  }
+
+  a {
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  a:hover {
+    color: hotpink;
+    text-decoration: none;
+  }
+
+  .contact {
+    padding: 30px;
+  }
+}
+
+.news {
+
+  font-family: $font-family;
+  margin-top: 30px;
+
+  a {
+    color: white;
+  }
+
+  a:hover {
+    color: yellowgreen;
+    text-decoration: none;
+  }
+
+  h4 {
+    padding: 20px;
+  }
+
+
+
+}
+
+//Back to top button
+
+#button {
+  display: inline-block;
+  background-color: #e79cc2;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: hotpink;
+  text-decoration: none;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.news {
+  font-family: $font-family;
+  color: $font-color;
+  padding-top: 30px;
+
+  .news-head {
+    padding: 10px;
+    color: white;
+    background-color: $font-color;
+  }
+.card-container {
+padding: 25px 0 25px 0;
+}
+
+  .news-img {
+  padding-top: 30px;
+}
+
+}
